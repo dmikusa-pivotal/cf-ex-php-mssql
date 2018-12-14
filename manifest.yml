@@ -6,6 +6,6 @@ applications:
   buildpack: https://github.com/cloudfoundry/php-buildpack.git#v4.3.66
   env:
     BP_DEBUG: true
-    LD_LIBRARY_PATH: /home/vcap/app/php/lib:/home/vcap/app/htdocs/php/lib
-    ODBCSYSINI: /home/vcap/app/htdocs/php/lib
+    LD_LIBRARY_PATH: /home/vcap/app/php/lib
+    ODBCSYSINI: /home/vcap/app/php/lib
  

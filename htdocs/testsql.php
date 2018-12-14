@@ -1,7 +1,7 @@
 <?php
-$serverName = "";
+$serverName = "xxx";
 $connectionOptions = array(
-    "database" => "xx",
+    "database" => "xxx",
     "uid" => "xxx",
     "pwd" => "xxx"
 );
