@@ -1,9 +1,9 @@
 <?php
-$serverName = "xx";
+$serverName = "xxxx";
 $connectionOptions = array(
-    "database" => "xx",
+    "database" => "xxx",
     "uid" => "xxx",
-    "pwd" => "xx"
+    "pwd" => "xxx"
 );
 
 // Establishes the connection
