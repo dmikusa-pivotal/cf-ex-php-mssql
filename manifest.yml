@@ -1,11 +1,12 @@
 ---
 applications:
-- name: testsql
+- name: cf-ex-mssql
   memory: 128M
   path: .
-  buildpack: https://github.com/cloudfoundry/php-buildpack.git#v4.3.66
+  buildpacks:
+  - https://github.com/cloudfoundry/apt-buildpack
+  - php_buildpack
   env:
-    BP_DEBUG: true
-    LD_LIBRARY_PATH: /home/vcap/app/php/lib
-    ODBCSYSINI: /home/vcap/app/php/lib
- 
+    ACCEPT_EULA: Y
+  services:
+  - mssql-server-db
